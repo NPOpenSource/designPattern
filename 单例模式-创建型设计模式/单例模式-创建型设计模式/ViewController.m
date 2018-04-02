@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "SingletonPattern.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [[SingletonPattern shareSingletonPatternManager] print];
+    
+//    [[[SingletonPattern alloc]init] print];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 

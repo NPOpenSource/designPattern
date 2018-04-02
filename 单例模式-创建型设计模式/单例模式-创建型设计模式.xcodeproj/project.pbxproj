@@ -15,6 +15,9 @@
 		65FC4D092071CF5600D1988A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC4D082071CF5600D1988A /* main.m */; };
 		65FC4D132071CF5600D1988A /* ____________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC4D122071CF5600D1988A /* ____________Tests.m */; };
 		65FC4D1E2071CF5700D1988A /* ____________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC4D1D2071CF5700D1988A /* ____________UITests.m */; };
+		65FC4D2D2071CFF600D1988A /* SingletonPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC4D2C2071CFF600D1988A /* SingletonPattern.m */; };
+		65FC4D302071D33800D1988A /* SingletonPatternTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC4D2F2071D33800D1988A /* SingletonPatternTwo.m */; };
+		65FC4D332071D76D00D1988A /* SingletonPatternThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC4D322071D76D00D1988A /* SingletonPatternThree.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		65FC4D192071CF5700D1988A /* 单例模式-创建型设计模式UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "单例模式-创建型设计模式UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65FC4D1D2071CF5700D1988A /* ____________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____________UITests.m"; sourceTree = "<group>"; };
 		65FC4D1F2071CF5700D1988A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65FC4D2B2071CFF600D1988A /* SingletonPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingletonPattern.h; sourceTree = "<group>"; };
+		65FC4D2C2071CFF600D1988A /* SingletonPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingletonPattern.m; sourceTree = "<group>"; };
+		65FC4D2E2071D33800D1988A /* SingletonPatternTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingletonPatternTwo.h; sourceTree = "<group>"; };
+		65FC4D2F2071D33800D1988A /* SingletonPatternTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingletonPatternTwo.m; sourceTree = "<group>"; };
+		65FC4D312071D76D00D1988A /* SingletonPatternThree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingletonPatternThree.h; sourceTree = "<group>"; };
+		65FC4D322071D76D00D1988A /* SingletonPatternThree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingletonPatternThree.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				65FC4CFA2071CF5600D1988A /* AppDelegate.m */,
 				65FC4CFC2071CF5600D1988A /* ViewController.h */,
 				65FC4CFD2071CF5600D1988A /* ViewController.m */,
+				65FC4D2B2071CFF600D1988A /* SingletonPattern.h */,
+				65FC4D2C2071CFF600D1988A /* SingletonPattern.m */,
+				65FC4D2E2071D33800D1988A /* SingletonPatternTwo.h */,
+				65FC4D2F2071D33800D1988A /* SingletonPatternTwo.m */,
+				65FC4D312071D76D00D1988A /* SingletonPatternThree.h */,
+				65FC4D322071D76D00D1988A /* SingletonPatternThree.m */,
 				65FC4CFF2071CF5600D1988A /* Main.storyboard */,
 				65FC4D022071CF5600D1988A /* Assets.xcassets */,
 				65FC4D042071CF5600D1988A /* LaunchScreen.storyboard */,
@@ -267,7 +282,10 @@
 			files = (
 				65FC4CFE2071CF5600D1988A /* ViewController.m in Sources */,
 				65FC4D092071CF5600D1988A /* main.m in Sources */,
+				65FC4D2D2071CFF600D1988A /* SingletonPattern.m in Sources */,
+				65FC4D332071D76D00D1988A /* SingletonPatternThree.m in Sources */,
 				65FC4CFB2071CF5600D1988A /* AppDelegate.m in Sources */,
+				65FC4D302071D33800D1988A /* SingletonPatternTwo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
