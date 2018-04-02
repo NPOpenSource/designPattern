@@ -10,4 +10,5 @@
 
 @interface SingletonPatternTwo : NSObject
 +(SingletonPatternTwo *)shareSingletonPatternManager;
+-(void)print;
 @end

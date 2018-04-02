@@ -39,6 +39,9 @@ static SingletonPatternThree * manager = nil;
     }
     return self;
 }
+-(void)print{
+    NSLog(@"单例打印");
+}
 
 
 @end
