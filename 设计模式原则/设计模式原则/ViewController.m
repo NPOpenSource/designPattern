@@ -12,6 +12,10 @@
 #import "HandGun.h"
 #import "MachineGun.h"
 #import "Rifle.h"
+#import "XiaoMing.h"
+#import "NovelNew.h"
+#import "XiaoMingNew.h"
+#import "LiteraryClassicNew.h"
 @interface ViewController ()
 
 @end
@@ -51,16 +55,27 @@
     AUG * aug = [AUG new];
     [solider killEnemy:aug];
 //    [solider killEnemy:gun];
+}
 
-
-
+///依赖倒置原则
+-(void)DIP{
+//    LiteraryClassic * literary=[LiteraryClassic new];
+//    XiaoMing * xiaoming=[XiaoMing new];
+//    [xiaoming read:literary];
+//    Novel * novel = [Novel new];
+//    [xiaoming readnovel:novel];
+    id<IReader>  ireader=[XiaoMingNew new];
+    id<IRead> read = [NovelNew new];
+    [ireader read:read];
+    read=[LiteraryClassicNew new];
+    [ireader read:read];
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 //    [self openClose];
-    [self LSP];
-    
+//    [self LSP];
+    [self DIP];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

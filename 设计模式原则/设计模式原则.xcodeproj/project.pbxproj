@@ -22,6 +22,12 @@
 		65FC4E8C2073687500D1988A /* Rifle.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC4E8B2073687500D1988A /* Rifle.m */; };
 		65FC4E8F2073687D00D1988A /* MachineGun.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC4E8E2073687D00D1988A /* MachineGun.m */; };
 		65FC4E9220736DBB00D1988A /* AUG.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC4E9120736DBB00D1988A /* AUG.m */; };
+		65FC4E9A20737D8F00D1988A /* XiaoMing.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC4E9920737D8F00D1988A /* XiaoMing.m */; };
+		65FC4E9D20737DA200D1988A /* LiteraryClassic.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC4E9C20737DA200D1988A /* LiteraryClassic.m */; };
+		65FC4EA1207381A100D1988A /* Novel.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC4EA0207381A100D1988A /* Novel.m */; };
+		65FC4EA42073864500D1988A /* XiaoMingNew.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC4EA32073864500D1988A /* XiaoMingNew.m */; };
+		65FC4EA92073867000D1988A /* LiteraryClassicNew.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC4EA82073867000D1988A /* LiteraryClassicNew.m */; };
+		65FC4EAC2073867F00D1988A /* NovelNew.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC4EAB2073867F00D1988A /* NovelNew.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +80,20 @@
 		65FC4E8E2073687D00D1988A /* MachineGun.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MachineGun.m; sourceTree = "<group>"; };
 		65FC4E9020736DBB00D1988A /* AUG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AUG.h; sourceTree = "<group>"; };
 		65FC4E9120736DBB00D1988A /* AUG.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AUG.m; sourceTree = "<group>"; };
+		65FC4E9820737D8F00D1988A /* XiaoMing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XiaoMing.h; sourceTree = "<group>"; };
+		65FC4E9920737D8F00D1988A /* XiaoMing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XiaoMing.m; sourceTree = "<group>"; };
+		65FC4E9B20737DA200D1988A /* LiteraryClassic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiteraryClassic.h; sourceTree = "<group>"; };
+		65FC4E9C20737DA200D1988A /* LiteraryClassic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiteraryClassic.m; sourceTree = "<group>"; };
+		65FC4E9F207381A100D1988A /* Novel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Novel.h; sourceTree = "<group>"; };
+		65FC4EA0207381A100D1988A /* Novel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Novel.m; sourceTree = "<group>"; };
+		65FC4EA22073864500D1988A /* XiaoMingNew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XiaoMingNew.h; sourceTree = "<group>"; };
+		65FC4EA32073864500D1988A /* XiaoMingNew.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XiaoMingNew.m; sourceTree = "<group>"; };
+		65FC4EA52073865500D1988A /* IReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IReader.h; sourceTree = "<group>"; };
+		65FC4EA62073866000D1988A /* IRead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRead.h; sourceTree = "<group>"; };
+		65FC4EA72073867000D1988A /* LiteraryClassicNew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiteraryClassicNew.h; sourceTree = "<group>"; };
+		65FC4EA82073867000D1988A /* LiteraryClassicNew.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiteraryClassicNew.m; sourceTree = "<group>"; };
+		65FC4EAA2073867F00D1988A /* NovelNew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NovelNew.h; sourceTree = "<group>"; };
+		65FC4EAB2073867F00D1988A /* NovelNew.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NovelNew.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +144,7 @@
 		65FC4E3B2073248600D1988A /* 设计模式原则 */ = {
 			isa = PBXGroup;
 			children = (
+				65FC4E9320737D4C00D1988A /* 依赖倒置原则 */,
 				65FC4E7B20732E7F00D1988A /* 里氏代换原则 */,
 				65FC4E6E207324AB00D1988A /* 开闭原则 */,
 				65FC4E3C2073248600D1988A /* AppDelegate.h */,
@@ -185,6 +206,43 @@
 				65FC4E8E2073687D00D1988A /* MachineGun.m */,
 			);
 			path = "里氏代换原则";
+			sourceTree = "<group>";
+		};
+		65FC4E9320737D4C00D1988A /* 依赖倒置原则 */ = {
+			isa = PBXGroup;
+			children = (
+				65FC4E9E20737E1000D1988A /* 场景二 */,
+				65FC4E9720737D7300D1988A /* 场景一 */,
+			);
+			path = "依赖倒置原则";
+			sourceTree = "<group>";
+		};
+		65FC4E9720737D7300D1988A /* 场景一 */ = {
+			isa = PBXGroup;
+			children = (
+				65FC4E9820737D8F00D1988A /* XiaoMing.h */,
+				65FC4E9920737D8F00D1988A /* XiaoMing.m */,
+				65FC4E9B20737DA200D1988A /* LiteraryClassic.h */,
+				65FC4E9C20737DA200D1988A /* LiteraryClassic.m */,
+				65FC4E9F207381A100D1988A /* Novel.h */,
+				65FC4EA0207381A100D1988A /* Novel.m */,
+			);
+			path = "场景一";
+			sourceTree = "<group>";
+		};
+		65FC4E9E20737E1000D1988A /* 场景二 */ = {
+			isa = PBXGroup;
+			children = (
+				65FC4EA22073864500D1988A /* XiaoMingNew.h */,
+				65FC4EA32073864500D1988A /* XiaoMingNew.m */,
+				65FC4EA52073865500D1988A /* IReader.h */,
+				65FC4EA62073866000D1988A /* IRead.h */,
+				65FC4EA72073867000D1988A /* LiteraryClassicNew.h */,
+				65FC4EA82073867000D1988A /* LiteraryClassicNew.m */,
+				65FC4EAA2073867F00D1988A /* NovelNew.h */,
+				65FC4EAB2073867F00D1988A /* NovelNew.m */,
+			);
+			path = "场景二";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,13 +379,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				65FC4E412073248600D1988A /* ViewController.m in Sources */,
+				65FC4EA92073867000D1988A /* LiteraryClassicNew.m in Sources */,
 				65FC4E7F207350A000D1988A /* BookObject.m in Sources */,
+				65FC4EAC2073867F00D1988A /* NovelNew.m in Sources */,
+				65FC4E9D20737DA200D1988A /* LiteraryClassic.m in Sources */,
 				65FC4E892073686D00D1988A /* HandGun.m in Sources */,
 				65FC4E86207367DD00D1988A /* Solider.m in Sources */,
 				65FC4E8C2073687500D1988A /* Rifle.m in Sources */,
+				65FC4EA42073864500D1988A /* XiaoMingNew.m in Sources */,
 				65FC4E9220736DBB00D1988A /* AUG.m in Sources */,
 				65FC4E4C2073248600D1988A /* main.m in Sources */,
+				65FC4EA1207381A100D1988A /* Novel.m in Sources */,
 				65FC4E3E2073248600D1988A /* AppDelegate.m in Sources */,
+				65FC4E9A20737D8F00D1988A /* XiaoMing.m in Sources */,
 				65FC4E8F2073687D00D1988A /* MachineGun.m in Sources */,
 				65FC4E822073515B00D1988A /* BookDiscountObject.m in Sources */,
 			);
