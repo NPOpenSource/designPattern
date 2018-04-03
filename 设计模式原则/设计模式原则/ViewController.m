@@ -50,7 +50,7 @@
     [solider killEnemy];
     AUG * aug = [AUG new];
     [solider killEnemy:aug];
-    [solider killEnemy:gun];
+//    [solider killEnemy:gun];
 
 
 
