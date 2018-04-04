@@ -12,7 +12,7 @@
 
 [设计模式原则之开闭原则](https://github.com/NPOpenSource/designPattern/blob/master/设计模式原则之开闭原则.md)
 
-[设计模式原则之里氏替换原则](https://github.com/NPOpenSource/designPattern/blob/master/设计模式原则之开闭原则.md)
+[设计模式原则之里氏替换原则](https://github.com/NPOpenSource/designPattern/blob/master/设计模式原则之里氏替换原则.md)
 
 [设计模式原则之依赖倒转原则](https://github.com/NPOpenSource/designPattern/blob/master/设计模式原则之依赖倒转原则.md)
 
