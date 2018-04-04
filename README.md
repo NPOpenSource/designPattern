@@ -24,7 +24,7 @@
 
 [创建型设计模式-单例模式](https://github.com/NPOpenSource/designPattern/blob/master/创建型设计模式-单例模式.md)
 
-[创建型设计模式-原型设计模式](https://github.com/NPOpenSource/designPattern/blob/master/创建型设计模-原型设计模式.md)
+[创建型设计模式-原型设计模式](https://github.com/NPOpenSource/designPattern/blob/master/创建型设计模式-原型设计模式.md)
 
 [创建型设计模式-工厂模式](https://github.com/NPOpenSource/designPattern/blob/master/创建型设计模式-工厂模式.md)
 
