@@ -28,6 +28,16 @@
 		65FC4EA42073864500D1988A /* XiaoMingNew.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC4EA32073864500D1988A /* XiaoMingNew.m */; };
 		65FC4EA92073867000D1988A /* LiteraryClassicNew.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC4EA82073867000D1988A /* LiteraryClassicNew.m */; };
 		65FC4EAC2073867F00D1988A /* NovelNew.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC4EAB2073867F00D1988A /* NovelNew.m */; };
+		65FC4EB220746E8D00D1988A /* Xiaoming.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC4EB120746E8D00D1988A /* Xiaoming.m */; };
+		65FC4EB520746E9A00D1988A /* XuJIaoStart.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC4EB420746E9A00D1988A /* XuJIaoStart.m */; };
+		65FC4EBC2074785C00D1988A /* XiaoHei.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC4EBB2074785C00D1988A /* XiaoHei.m */; };
+		65FC4EBF2074786900D1988A /* XuJiaoNewStart.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC4EBE2074786900D1988A /* XuJiaoNewStart.m */; };
+		65FC4EC52074A5A300D1988A /* ForumObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC4EC42074A5A300D1988A /* ForumObject.m */; };
+		65FC4EC92074A5F400D1988A /* ThreadObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC4EC82074A5F400D1988A /* ThreadObject.m */; };
+		65FC4ECF2074A7FE00D1988A /* ForumNewObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC4ECE2074A7FE00D1988A /* ForumNewObject.m */; };
+		65FC4ED32074B8E000D1988A /* ButtonEventView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC4ED22074B8E000D1988A /* ButtonEventView.m */; };
+		65FC4ED72074BE0600D1988A /* ButtonEventNewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC4ED62074BE0600D1988A /* ButtonEventNewView.m */; };
+		65FC4EDA2074BE2D00D1988A /* Mediater.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC4ED92074BE2D00D1988A /* Mediater.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +104,35 @@
 		65FC4EA82073867000D1988A /* LiteraryClassicNew.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiteraryClassicNew.m; sourceTree = "<group>"; };
 		65FC4EAA2073867F00D1988A /* NovelNew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NovelNew.h; sourceTree = "<group>"; };
 		65FC4EAB2073867F00D1988A /* NovelNew.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NovelNew.m; sourceTree = "<group>"; };
+		65FC4EAE20746E5600D1988A /* FindStarts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindStarts.h; sourceTree = "<group>"; };
+		65FC4EAF20746E5D00D1988A /* Starts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Starts.h; sourceTree = "<group>"; };
+		65FC4EB020746E8D00D1988A /* Xiaoming.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Xiaoming.h; sourceTree = "<group>"; };
+		65FC4EB120746E8D00D1988A /* Xiaoming.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Xiaoming.m; sourceTree = "<group>"; };
+		65FC4EB320746E9A00D1988A /* XuJIaoStart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XuJIaoStart.h; sourceTree = "<group>"; };
+		65FC4EB420746E9A00D1988A /* XuJIaoStart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XuJIaoStart.m; sourceTree = "<group>"; };
+		65FC4EB72074781300D1988A /* FindNewStarts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindNewStarts.h; sourceTree = "<group>"; };
+		65FC4EB82074781D00D1988A /* StartsA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartsA.h; sourceTree = "<group>"; };
+		65FC4EB92074782900D1988A /* StartsB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartsB.h; sourceTree = "<group>"; };
+		65FC4EBA2074785C00D1988A /* XiaoHei.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XiaoHei.h; sourceTree = "<group>"; };
+		65FC4EBB2074785C00D1988A /* XiaoHei.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XiaoHei.m; sourceTree = "<group>"; };
+		65FC4EBD2074786900D1988A /* XuJiaoNewStart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XuJiaoNewStart.h; sourceTree = "<group>"; };
+		65FC4EBE2074786900D1988A /* XuJiaoNewStart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XuJiaoNewStart.m; sourceTree = "<group>"; };
+		65FC4EC12074A4F000D1988A /* Forum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Forum.h; sourceTree = "<group>"; };
+		65FC4EC22074A56400D1988A /* Thread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Thread.h; sourceTree = "<group>"; };
+		65FC4EC32074A5A300D1988A /* ForumObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForumObject.h; sourceTree = "<group>"; };
+		65FC4EC42074A5A300D1988A /* ForumObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForumObject.m; sourceTree = "<group>"; };
+		65FC4EC72074A5F400D1988A /* ThreadObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadObject.h; sourceTree = "<group>"; };
+		65FC4EC82074A5F400D1988A /* ThreadObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadObject.m; sourceTree = "<group>"; };
+		65FC4ECB2074A7BE00D1988A /* ForumNew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForumNew.h; sourceTree = "<group>"; };
+		65FC4ECD2074A7FE00D1988A /* ForumNewObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForumNewObject.h; sourceTree = "<group>"; };
+		65FC4ECE2074A7FE00D1988A /* ForumNewObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForumNewObject.m; sourceTree = "<group>"; };
+		65FC4ED12074B8E000D1988A /* ButtonEventView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonEventView.h; sourceTree = "<group>"; };
+		65FC4ED22074B8E000D1988A /* ButtonEventView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonEventView.m; sourceTree = "<group>"; };
+		65FC4ED52074BE0600D1988A /* ButtonEventNewView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonEventNewView.h; sourceTree = "<group>"; };
+		65FC4ED62074BE0600D1988A /* ButtonEventNewView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonEventNewView.m; sourceTree = "<group>"; };
+		65FC4ED82074BE2D00D1988A /* Mediater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mediater.h; sourceTree = "<group>"; };
+		65FC4ED92074BE2D00D1988A /* Mediater.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mediater.m; sourceTree = "<group>"; };
+		65FC4EDB2074BEB900D1988A /* MediaterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaterProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +183,9 @@
 		65FC4E3B2073248600D1988A /* 设计模式原则 */ = {
 			isa = PBXGroup;
 			children = (
+				65FC4ED02074B8B100D1988A /* 迪米特法则 */,
+				65FC4EC02074A4D600D1988A /* 单一职责原则 */,
+				65FC4EAD20746E3800D1988A /* 接口隔离原则 */,
 				65FC4E9320737D4C00D1988A /* 依赖倒置原则 */,
 				65FC4E7B20732E7F00D1988A /* 里氏代换原则 */,
 				65FC4E6E207324AB00D1988A /* 开闭原则 */,
@@ -243,6 +285,80 @@
 				65FC4EAB2073867F00D1988A /* NovelNew.m */,
 			);
 			path = "场景二";
+			sourceTree = "<group>";
+		};
+		65FC4EAD20746E3800D1988A /* 接口隔离原则 */ = {
+			isa = PBXGroup;
+			children = (
+				65FC4EB6207477F500D1988A /* 场景变更 */,
+				65FC4EAE20746E5600D1988A /* FindStarts.h */,
+				65FC4EAF20746E5D00D1988A /* Starts.h */,
+				65FC4EB020746E8D00D1988A /* Xiaoming.h */,
+				65FC4EB120746E8D00D1988A /* Xiaoming.m */,
+				65FC4EB320746E9A00D1988A /* XuJIaoStart.h */,
+				65FC4EB420746E9A00D1988A /* XuJIaoStart.m */,
+			);
+			path = "接口隔离原则";
+			sourceTree = "<group>";
+		};
+		65FC4EB6207477F500D1988A /* 场景变更 */ = {
+			isa = PBXGroup;
+			children = (
+				65FC4EB72074781300D1988A /* FindNewStarts.h */,
+				65FC4EB82074781D00D1988A /* StartsA.h */,
+				65FC4EB92074782900D1988A /* StartsB.h */,
+				65FC4EBA2074785C00D1988A /* XiaoHei.h */,
+				65FC4EBB2074785C00D1988A /* XiaoHei.m */,
+				65FC4EBD2074786900D1988A /* XuJiaoNewStart.h */,
+				65FC4EBE2074786900D1988A /* XuJiaoNewStart.m */,
+			);
+			path = "场景变更";
+			sourceTree = "<group>";
+		};
+		65FC4EC02074A4D600D1988A /* 单一职责原则 */ = {
+			isa = PBXGroup;
+			children = (
+				65FC4ECA2074A79500D1988A /* override */,
+				65FC4EC12074A4F000D1988A /* Forum.h */,
+				65FC4EC22074A56400D1988A /* Thread.h */,
+				65FC4EC32074A5A300D1988A /* ForumObject.h */,
+				65FC4EC42074A5A300D1988A /* ForumObject.m */,
+				65FC4EC72074A5F400D1988A /* ThreadObject.h */,
+				65FC4EC82074A5F400D1988A /* ThreadObject.m */,
+			);
+			path = "单一职责原则";
+			sourceTree = "<group>";
+		};
+		65FC4ECA2074A79500D1988A /* override */ = {
+			isa = PBXGroup;
+			children = (
+				65FC4ECB2074A7BE00D1988A /* ForumNew.h */,
+				65FC4ECD2074A7FE00D1988A /* ForumNewObject.h */,
+				65FC4ECE2074A7FE00D1988A /* ForumNewObject.m */,
+			);
+			path = override;
+			sourceTree = "<group>";
+		};
+		65FC4ED02074B8B100D1988A /* 迪米特法则 */ = {
+			isa = PBXGroup;
+			children = (
+				65FC4ED42074BDE100D1988A /* override */,
+				65FC4ED12074B8E000D1988A /* ButtonEventView.h */,
+				65FC4ED22074B8E000D1988A /* ButtonEventView.m */,
+			);
+			path = "迪米特法则";
+			sourceTree = "<group>";
+		};
+		65FC4ED42074BDE100D1988A /* override */ = {
+			isa = PBXGroup;
+			children = (
+				65FC4ED52074BE0600D1988A /* ButtonEventNewView.h */,
+				65FC4ED62074BE0600D1988A /* ButtonEventNewView.m */,
+				65FC4ED82074BE2D00D1988A /* Mediater.h */,
+				65FC4ED92074BE2D00D1988A /* Mediater.m */,
+				65FC4EDB2074BEB900D1988A /* MediaterProtocol.h */,
+			);
+			path = override;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -379,20 +495,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				65FC4E412073248600D1988A /* ViewController.m in Sources */,
+				65FC4ECF2074A7FE00D1988A /* ForumNewObject.m in Sources */,
+				65FC4EBC2074785C00D1988A /* XiaoHei.m in Sources */,
 				65FC4EA92073867000D1988A /* LiteraryClassicNew.m in Sources */,
 				65FC4E7F207350A000D1988A /* BookObject.m in Sources */,
+				65FC4ED32074B8E000D1988A /* ButtonEventView.m in Sources */,
+				65FC4ED72074BE0600D1988A /* ButtonEventNewView.m in Sources */,
 				65FC4EAC2073867F00D1988A /* NovelNew.m in Sources */,
+				65FC4EDA2074BE2D00D1988A /* Mediater.m in Sources */,
 				65FC4E9D20737DA200D1988A /* LiteraryClassic.m in Sources */,
 				65FC4E892073686D00D1988A /* HandGun.m in Sources */,
+				65FC4EBF2074786900D1988A /* XuJiaoNewStart.m in Sources */,
 				65FC4E86207367DD00D1988A /* Solider.m in Sources */,
 				65FC4E8C2073687500D1988A /* Rifle.m in Sources */,
+				65FC4EB520746E9A00D1988A /* XuJIaoStart.m in Sources */,
 				65FC4EA42073864500D1988A /* XiaoMingNew.m in Sources */,
 				65FC4E9220736DBB00D1988A /* AUG.m in Sources */,
 				65FC4E4C2073248600D1988A /* main.m in Sources */,
+				65FC4EB220746E8D00D1988A /* Xiaoming.m in Sources */,
 				65FC4EA1207381A100D1988A /* Novel.m in Sources */,
+				65FC4EC92074A5F400D1988A /* ThreadObject.m in Sources */,
 				65FC4E3E2073248600D1988A /* AppDelegate.m in Sources */,
 				65FC4E9A20737D8F00D1988A /* XiaoMing.m in Sources */,
 				65FC4E8F2073687D00D1988A /* MachineGun.m in Sources */,
+				65FC4EC52074A5A300D1988A /* ForumObject.m in Sources */,
 				65FC4E822073515B00D1988A /* BookDiscountObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

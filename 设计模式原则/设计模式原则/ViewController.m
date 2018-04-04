@@ -16,6 +16,16 @@
 #import "NovelNew.h"
 #import "XiaoMingNew.h"
 #import "LiteraryClassicNew.h"
+#import "Xiaoming.h"
+#import "XuJIaoStart.h"
+#import "XiaoHei.h"
+#import "XuJiaoNewStart.h"
+#import "ForumObject.h"
+#import "ThreadObject.h"
+#import "ForumNewObject.h"
+#import "ButtonEventView.h"
+#import "ButtonEventNewView.h"
+#import "Mediater.h"
 @interface ViewController ()
 
 @end
@@ -71,11 +81,64 @@
     [ireader read:read];
 }
 
+///接口隔离原则
+-(void)ISP{
+//    id<FindStarts> xiaoming = [Xiaoming new];
+//     id<Starts> xujiao = [XuJIaoStart new];
+//    [xiaoming findStarts:xujiao];
+//    [xiaoming show];
+    
+    id<FindNewStarts> xiaohei = [XiaoHei new];
+    XuJiaoNewStart * xujiao = [XuJiaoNewStart new];
+    [xiaohei findStartsB:xujiao];
+    [xiaohei findStartsA:xujiao];
+    [xiaohei show];
+    
+}
+///单一职责原则
+-(void)CARP{
+//    id<Forum> forumObject = [ForumObject new];
+//    ThreadObject * threadobject = [ThreadObject new];
+//    threadobject.name =@"单一职责原则";
+//    [forumObject addThread:threadobject];
+//    [forumObject addReplayMessage];
+    id<ForumNew> forumObject= [ForumNewObject new];
+    ThreadObject * threadobject = [ThreadObject new];
+    threadobject.name =@"单一职责原则";
+    [forumObject addThread:threadobject];
+    [threadobject addReplayMessage];
+    
+}
+
+-(UILabel *)getLabel{
+    static int i=0;
+    i++;
+    UILabel * label = [[UILabel alloc]initWithFrame:CGRectMake(0, i*60, self.view.bounds.size.width, 50)];
+    label.backgroundColor = [UIColor blueColor];
+    label.textColor=[UIColor blackColor];
+    [self.view addSubview:label];
+    return label;
+}
+
+///迪米特法则
+-(void)PLK{
+    
+//    ButtonEventView* button = [[ButtonEventView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 50) Label1:[self getLabel] Label2:[self getLabel] Label3:[self getLabel]];
+//    [self.view addSubview:button];
+    
+    Mediater * mediater = [[Mediater alloc]initWithLabel1:[self getLabel] Label2:[self getLabel] Label3:[self getLabel]];
+    ButtonEventNewView * button = [[ButtonEventNewView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 50) mediator:mediater];
+    [self.view addSubview:button];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 //    [self openClose];
 //    [self LSP];
-    [self DIP];
+//    [self DIP];
+//    [self ISP];
+//    [self CARP];
+    [self PLK];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
