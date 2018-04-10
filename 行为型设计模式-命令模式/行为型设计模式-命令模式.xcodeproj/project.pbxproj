@@ -15,6 +15,10 @@
 		65FC51A9207C659000D1988A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC51A8207C659000D1988A /* main.m */; };
 		65FC51B3207C659000D1988A /* ____________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC51B2207C659000D1988A /* ____________Tests.m */; };
 		65FC51BE207C659100D1988A /* ____________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC51BD207C659100D1988A /* ____________UITests.m */; };
+		65FC51D3207C871100D1988A /* OpenTV.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC51D2207C871100D1988A /* OpenTV.m */; };
+		65FC51D6207C873700D1988A /* CloseTV.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC51D5207C873700D1988A /* CloseTV.m */; };
+		65FC51D9207C878B00D1988A /* Remote.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC51D8207C878B00D1988A /* Remote.m */; };
+		65FC51DC207C8E3700D1988A /* TV.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC51DB207C8E3700D1988A /* TV.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,15 @@
 		65FC51B9207C659100D1988A /* 行为型设计模式-命令模式UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "行为型设计模式-命令模式UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65FC51BD207C659100D1988A /* ____________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____________UITests.m"; sourceTree = "<group>"; };
 		65FC51BF207C659100D1988A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65FC51D0207C863700D1988A /* Command.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		65FC51D1207C871100D1988A /* OpenTV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenTV.h; sourceTree = "<group>"; };
+		65FC51D2207C871100D1988A /* OpenTV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenTV.m; sourceTree = "<group>"; };
+		65FC51D4207C873700D1988A /* CloseTV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloseTV.h; sourceTree = "<group>"; };
+		65FC51D5207C873700D1988A /* CloseTV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloseTV.m; sourceTree = "<group>"; };
+		65FC51D7207C878B00D1988A /* Remote.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Remote.h; sourceTree = "<group>"; };
+		65FC51D8207C878B00D1988A /* Remote.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Remote.m; sourceTree = "<group>"; };
+		65FC51DA207C8E3700D1988A /* TV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TV.h; sourceTree = "<group>"; };
+		65FC51DB207C8E3700D1988A /* TV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TV.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +123,15 @@
 				65FC51A4207C659000D1988A /* LaunchScreen.storyboard */,
 				65FC51A7207C659000D1988A /* Info.plist */,
 				65FC51A8207C659000D1988A /* main.m */,
+				65FC51D0207C863700D1988A /* Command.h */,
+				65FC51D1207C871100D1988A /* OpenTV.h */,
+				65FC51D2207C871100D1988A /* OpenTV.m */,
+				65FC51D4207C873700D1988A /* CloseTV.h */,
+				65FC51D5207C873700D1988A /* CloseTV.m */,
+				65FC51D7207C878B00D1988A /* Remote.h */,
+				65FC51D8207C878B00D1988A /* Remote.m */,
+				65FC51DA207C8E3700D1988A /* TV.h */,
+				65FC51DB207C8E3700D1988A /* TV.m */,
 			);
 			path = "行为型设计模式-命令模式";
 			sourceTree = "<group>";
@@ -267,7 +289,11 @@
 			files = (
 				65FC519E207C659000D1988A /* ViewController.m in Sources */,
 				65FC51A9207C659000D1988A /* main.m in Sources */,
+				65FC51DC207C8E3700D1988A /* TV.m in Sources */,
 				65FC519B207C659000D1988A /* AppDelegate.m in Sources */,
+				65FC51D3207C871100D1988A /* OpenTV.m in Sources */,
+				65FC51D6207C873700D1988A /* CloseTV.m in Sources */,
+				65FC51D9207C878B00D1988A /* Remote.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

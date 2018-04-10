@@ -7,7 +7,9 @@
 //
 
 #import "ViewController.h"
-
+#import "OpenTV.h"
+#import "CloseTV.h"
+#import "Remote.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +18,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    TV * tv= [TV new];
+    Remote * remote = [Remote new];
+    OpenTV *openTV = [OpenTV new];
+    openTV.tv =tv;
+    CloseTV * closeTV = [CloseTV new];
+    closeTV.tv = tv;
+    [remote setCommand:openTV];
+    [remote invokeCommand];
+    [remote setCommand:closeTV];
+    [remote invokeCommand];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
