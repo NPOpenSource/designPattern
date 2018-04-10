@@ -20,6 +20,12 @@
 		65FC5225207CA02900D1988A /* AdditionExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC5224207CA02900D1988A /* AdditionExpression.m */; };
 		65FC5228207CA08300D1988A /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC5227207CA08300D1988A /* Calculator.m */; };
 		65FC522B207CAC7E00D1988A /* ReduceExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC522A207CAC7E00D1988A /* ReduceExpression.m */; };
+		65FC5233207CBBD000D1988A /* SentenceExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC5232207CBBD000D1988A /* SentenceExpression.m */; };
+		65FC5236207CBBE100D1988A /* DirectionExpresssion.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC5235207CBBE100D1988A /* DirectionExpresssion.m */; };
+		65FC5239207CBBF100D1988A /* ActionExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC5238207CBBF100D1988A /* ActionExpression.m */; };
+		65FC523C207CBC0000D1988A /* DistanceExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC523B207CBC0000D1988A /* DistanceExpression.m */; };
+		65FC5242207CBC2500D1988A /* SimpleHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC5241207CBC2500D1988A /* SimpleHandle.m */; };
+		65FC5245207CBC4000D1988A /* AndExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC5244207CBC4000D1988A /* AndExpression.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +73,19 @@
 		65FC5227207CA08300D1988A /* Calculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 		65FC5229207CAC7E00D1988A /* ReduceExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReduceExpression.h; sourceTree = "<group>"; };
 		65FC522A207CAC7E00D1988A /* ReduceExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReduceExpression.m; sourceTree = "<group>"; };
+		65FC5230207CBB7700D1988A /* AbstractExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractExpression.h; sourceTree = "<group>"; };
+		65FC5231207CBBD000D1988A /* SentenceExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SentenceExpression.h; sourceTree = "<group>"; };
+		65FC5232207CBBD000D1988A /* SentenceExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SentenceExpression.m; sourceTree = "<group>"; };
+		65FC5234207CBBE100D1988A /* DirectionExpresssion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DirectionExpresssion.h; sourceTree = "<group>"; };
+		65FC5235207CBBE100D1988A /* DirectionExpresssion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DirectionExpresssion.m; sourceTree = "<group>"; };
+		65FC5237207CBBF100D1988A /* ActionExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionExpression.h; sourceTree = "<group>"; };
+		65FC5238207CBBF100D1988A /* ActionExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionExpression.m; sourceTree = "<group>"; };
+		65FC523A207CBC0000D1988A /* DistanceExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DistanceExpression.h; sourceTree = "<group>"; };
+		65FC523B207CBC0000D1988A /* DistanceExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DistanceExpression.m; sourceTree = "<group>"; };
+		65FC5240207CBC2500D1988A /* SimpleHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleHandle.h; sourceTree = "<group>"; };
+		65FC5241207CBC2500D1988A /* SimpleHandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleHandle.m; sourceTree = "<group>"; };
+		65FC5243207CBC4000D1988A /* AndExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AndExpression.h; sourceTree = "<group>"; };
+		65FC5244207CBC4000D1988A /* AndExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AndExpression.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +136,7 @@
 		65FC51E8207C9B2B00D1988A /* 行为型设计模式-解释器模式 */ = {
 			isa = PBXGroup;
 			children = (
+				65FC522F207CBB2D00D1988A /* 机器人 */,
 				65FC521B207C9B3500D1988A /* 四则运算 */,
 				65FC51E9207C9B2B00D1988A /* AppDelegate.h */,
 				65FC51EA207C9B2B00D1988A /* AppDelegate.m */,
@@ -165,6 +185,26 @@
 				65FC522A207CAC7E00D1988A /* ReduceExpression.m */,
 			);
 			path = "四则运算";
+			sourceTree = "<group>";
+		};
+		65FC522F207CBB2D00D1988A /* 机器人 */ = {
+			isa = PBXGroup;
+			children = (
+				65FC5230207CBB7700D1988A /* AbstractExpression.h */,
+				65FC5231207CBBD000D1988A /* SentenceExpression.h */,
+				65FC5232207CBBD000D1988A /* SentenceExpression.m */,
+				65FC5234207CBBE100D1988A /* DirectionExpresssion.h */,
+				65FC5235207CBBE100D1988A /* DirectionExpresssion.m */,
+				65FC5237207CBBF100D1988A /* ActionExpression.h */,
+				65FC5238207CBBF100D1988A /* ActionExpression.m */,
+				65FC523A207CBC0000D1988A /* DistanceExpression.h */,
+				65FC523B207CBC0000D1988A /* DistanceExpression.m */,
+				65FC5240207CBC2500D1988A /* SimpleHandle.h */,
+				65FC5241207CBC2500D1988A /* SimpleHandle.m */,
+				65FC5243207CBC4000D1988A /* AndExpression.h */,
+				65FC5244207CBC4000D1988A /* AndExpression.m */,
+			);
+			path = "机器人";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,10 +341,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				65FC5222207C9E6B00D1988A /* OperatorExpression.m in Sources */,
+				65FC5236207CBBE100D1988A /* DirectionExpresssion.m in Sources */,
+				65FC523C207CBC0000D1988A /* DistanceExpression.m in Sources */,
+				65FC5245207CBC4000D1988A /* AndExpression.m in Sources */,
 				65FC51EE207C9B2B00D1988A /* ViewController.m in Sources */,
 				65FC51F9207C9B2B00D1988A /* main.m in Sources */,
+				65FC5239207CBBF100D1988A /* ActionExpression.m in Sources */,
 				65FC5228207CA08300D1988A /* Calculator.m in Sources */,
 				65FC521F207C9DDD00D1988A /* NumExpression.m in Sources */,
+				65FC5242207CBC2500D1988A /* SimpleHandle.m in Sources */,
+				65FC5233207CBBD000D1988A /* SentenceExpression.m in Sources */,
 				65FC522B207CAC7E00D1988A /* ReduceExpression.m in Sources */,
 				65FC51EB207C9B2B00D1988A /* AppDelegate.m in Sources */,
 				65FC5225207CA02900D1988A /* AdditionExpression.m in Sources */,

@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "Calculator.h"
+#import "SimpleHandle.h"
 @interface ViewController ()
 
 @end
@@ -22,6 +23,9 @@
     int result= [calculator calculator];
     NSLog(@"result %d",result);
     
+    SimpleHandle * simpleHandle = [[SimpleHandle alloc]init];
+    [simpleHandle handleExpress:@"up move 5 and down run 10 and left move 5"];
+    NSLog(@"result %@",[simpleHandle handle]);
     // Do any additional setup after loading the view, typically from a nib.
 }
 
