@@ -15,6 +15,9 @@
 		65FC52EB207DAC0600D1988A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC52EA207DAC0600D1988A /* main.m */; };
 		65FC52F5207DAC0700D1988A /* _____________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC52F4207DAC0700D1988A /* _____________Tests.m */; };
 		65FC5300207DAC0700D1988A /* _____________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC52FF207DAC0700D1988A /* _____________UITests.m */; };
+		65FC530F207DAC4600D1988A /* Memento.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC530E207DAC4600D1988A /* Memento.m */; };
+		65FC5312207DACD600D1988A /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC5311207DACD600D1988A /* Game.m */; };
+		65FC5315207DAD1500D1988A /* GameLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC5314207DAD1500D1988A /* GameLevel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		65FC52FB207DAC0700D1988A /* 行为型设计模式-备忘录模式UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "行为型设计模式-备忘录模式UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65FC52FF207DAC0700D1988A /* _____________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____________UITests.m"; sourceTree = "<group>"; };
 		65FC5301207DAC0700D1988A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65FC530D207DAC4600D1988A /* Memento.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Memento.h; sourceTree = "<group>"; };
+		65FC530E207DAC4600D1988A /* Memento.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Memento.m; sourceTree = "<group>"; };
+		65FC5310207DACD600D1988A /* Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		65FC5311207DACD600D1988A /* Game.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		65FC5313207DAD1500D1988A /* GameLevel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameLevel.h; sourceTree = "<group>"; };
+		65FC5314207DAD1500D1988A /* GameLevel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameLevel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +119,12 @@
 				65FC52E6207DAC0600D1988A /* LaunchScreen.storyboard */,
 				65FC52E9207DAC0600D1988A /* Info.plist */,
 				65FC52EA207DAC0600D1988A /* main.m */,
+				65FC5310207DACD600D1988A /* Game.h */,
+				65FC5311207DACD600D1988A /* Game.m */,
+				65FC5313207DAD1500D1988A /* GameLevel.h */,
+				65FC5314207DAD1500D1988A /* GameLevel.m */,
+				65FC530D207DAC4600D1988A /* Memento.h */,
+				65FC530E207DAC4600D1988A /* Memento.m */,
 			);
 			path = "行为型设计模式-备忘录模式";
 			sourceTree = "<group>";
@@ -265,8 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65FC5312207DACD600D1988A /* Game.m in Sources */,
 				65FC52E0207DAC0600D1988A /* ViewController.m in Sources */,
+				65FC530F207DAC4600D1988A /* Memento.m in Sources */,
 				65FC52EB207DAC0600D1988A /* main.m in Sources */,
+				65FC5315207DAD1500D1988A /* GameLevel.m in Sources */,
 				65FC52DD207DAC0600D1988A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

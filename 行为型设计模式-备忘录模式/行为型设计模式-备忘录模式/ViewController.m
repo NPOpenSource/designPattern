@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import "Game.h"
+#import "GameLevel.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +17,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    Game * game = [Game new];
+    GameLevel * level= [GameLevel new];
+    game.level = 3;
+    [game saveStateToMemento];
+    game.level = 4;
+    [level add:[game saveStateToMemento]];
+    game.level = 5;
+    [level add:[game saveStateToMemento]];
+    [game getStateFromMemento: [level get:0]];
+   
+    NSLog(@"获取第一次位置的state %d",game.level);
+    [game getStateFromMemento: [level get:1]];
+    
+    NSLog(@"获取第二次位置的state %d",game.level);
+
 }
 
 
