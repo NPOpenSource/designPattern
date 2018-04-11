@@ -1,0 +1,32 @@
+//
+//  ViewController.m
+//  行为型设计模式-迭代器模式
+//
+//  Created by 温杰 on 2018/4/10.
+//  Copyright © 2018年 温杰. All rights reserved.
+//
+
+#import "ViewController.h"
+#import "Persion.h"
+@interface ViewController ()
+
+@end
+
+@implementation ViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    Persion *per=  [Persion new];
+    while (per.appleIterator.hasNext) {
+        NSLog(@"洗 %@",[per.appleIterator next])   ;
+    };
+}
+
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+
+@end
