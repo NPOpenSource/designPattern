@@ -15,6 +15,10 @@
 		65FC5378207DBE5B00D1988A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC5377207DBE5B00D1988A /* main.m */; };
 		65FC5382207DBE5B00D1988A /* ____________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC5381207DBE5B00D1988A /* ____________Tests.m */; };
 		65FC538D207DBE5B00D1988A /* ____________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC538C207DBE5B00D1988A /* ____________UITests.m */; };
+		65FC539F207DE02100D1988A /* ChoosingState.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC539E207DE02100D1988A /* ChoosingState.m */; };
+		65FC53A2207DE0A900D1988A /* BuyState.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC53A1207DE0A900D1988A /* BuyState.m */; };
+		65FC53A5207DE0D100D1988A /* ShipmentState.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC53A4207DE0D100D1988A /* ShipmentState.m */; };
+		65FC53A8207DE10D00D1988A /* Celling.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC53A7207DE10D00D1988A /* Celling.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,15 @@
 		65FC5388207DBE5B00D1988A /* 行为型设计模式-状态模式UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "行为型设计模式-状态模式UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65FC538C207DBE5B00D1988A /* ____________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____________UITests.m"; sourceTree = "<group>"; };
 		65FC538E207DBE5B00D1988A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65FC539D207DE02100D1988A /* ChoosingState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChoosingState.h; sourceTree = "<group>"; };
+		65FC539E207DE02100D1988A /* ChoosingState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChoosingState.m; sourceTree = "<group>"; };
+		65FC53A0207DE0A900D1988A /* BuyState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuyState.h; sourceTree = "<group>"; };
+		65FC53A1207DE0A900D1988A /* BuyState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuyState.m; sourceTree = "<group>"; };
+		65FC53A3207DE0D100D1988A /* ShipmentState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShipmentState.h; sourceTree = "<group>"; };
+		65FC53A4207DE0D100D1988A /* ShipmentState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShipmentState.m; sourceTree = "<group>"; };
+		65FC53A6207DE10D00D1988A /* Celling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Celling.h; sourceTree = "<group>"; };
+		65FC53A7207DE10D00D1988A /* Celling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Celling.m; sourceTree = "<group>"; };
+		65FC53A9207DE24D00D1988A /* CellingState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellingState.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +123,15 @@
 				65FC5373207DBE5B00D1988A /* LaunchScreen.storyboard */,
 				65FC5376207DBE5B00D1988A /* Info.plist */,
 				65FC5377207DBE5B00D1988A /* main.m */,
+				65FC539D207DE02100D1988A /* ChoosingState.h */,
+				65FC539E207DE02100D1988A /* ChoosingState.m */,
+				65FC53A0207DE0A900D1988A /* BuyState.h */,
+				65FC53A1207DE0A900D1988A /* BuyState.m */,
+				65FC53A3207DE0D100D1988A /* ShipmentState.h */,
+				65FC53A4207DE0D100D1988A /* ShipmentState.m */,
+				65FC53A6207DE10D00D1988A /* Celling.h */,
+				65FC53A7207DE10D00D1988A /* Celling.m */,
+				65FC53A9207DE24D00D1988A /* CellingState.h */,
 			);
 			path = "行为型设计模式-状态模式";
 			sourceTree = "<group>";
@@ -265,8 +287,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65FC53A2207DE0A900D1988A /* BuyState.m in Sources */,
+				65FC53A8207DE10D00D1988A /* Celling.m in Sources */,
 				65FC536D207DBE5B00D1988A /* ViewController.m in Sources */,
+				65FC53A5207DE0D100D1988A /* ShipmentState.m in Sources */,
 				65FC5378207DBE5B00D1988A /* main.m in Sources */,
+				65FC539F207DE02100D1988A /* ChoosingState.m in Sources */,
 				65FC536A207DBE5B00D1988A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

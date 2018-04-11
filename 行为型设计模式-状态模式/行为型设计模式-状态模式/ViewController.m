@@ -7,7 +7,10 @@
 //
 
 #import "ViewController.h"
-
+#import "Celling.h"
+#import "BuyState.h"
+#import "ShipmentState.h"
+#import "ChoosingState.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +19,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    Celling * celling = [Celling new];
+    [celling choose];
+    celling.state = [ChoosingState new];
+    [celling choose];
+    celling.state = [BuyState new];
+    [celling buy];
+    celling.state = [ShipmentState new];
+    [celling shipment];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
